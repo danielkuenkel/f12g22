@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CookingPlace</string>
+    <string name="title_activity_main">Choose your function.</string>
+    <string name="title_activity_search_event">Search Event</string>
+    <string name="title_activity_create_event">Create Event 1/2</string>
+    <string name="title_activity_create_event_address">Create Event 2/2</string><string name="title_activity_maps">Google Maps View</string>
+    <string name="title_activity_event">Event Details</string><string name="welcome_text">Welcome to Cooking Place</string>
+    <string name="menu_settings">Settings</string>
+    <string name="user_login">dmalkm</string>
+    <string name="password_login">ichauch</string>
+    <string name="button_login">Login</string>
+    <string name="error_ok">OK</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="map_not_ready">Map is not ready</string>
+    <string name="subwelcome_text">Please Login with your Cookingplace Account</string>
+    <string name="tab1">Search Event</string>
+    <string name="tab2">Create Event</string>
+    <string name="tab3">Show Map</string>
+    
+    <string name="eventTitle_create">Event Title</string>
+    <string name="eventMaxPersons_create">max. Persons (including you!)</string>
+    <string name="eventCost_create">Cost</string>
+    <string name="eventDate_create">Date DD/MM/YYYY</string>
+    <string name="eventHour_create">Hour</string>
+    <string name="eventMinute_create">Minute</string>
+    <string name="eventStreet_create">Street</string>
+    <string name="eventHouseNumber_create">House number</string>
+    <string name="eventZip_create">Zipcode</string>
+    <string name="eventCity_create">City</string>
+    <string name="eventShortDescription_create">Short description</string>
+    
+    <string name="createEventNextButton">Next</string>
+    <string name="createEventCreateButton">Create</string>
+    <string name="eventTextView_createdBy">created by</string>
+    <string name="eventTextView_title">Title</string>
+    <string name="join_event_button">Join Event</string>
+    <string name="cancel_event_button">Cancel Event</string>
+    <string name="edit_event_button">Edit Event</string>
+    <string name="searchList">Search Events</string>
+    <string name="searchByZip_editText">search by zip</string>
+    <string name="searchByZip_button">search</string>
+
+</resources>

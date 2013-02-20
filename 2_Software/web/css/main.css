@@ -1,0 +1,686 @@
+/* 
+    Author     : dkuenk
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body
+{
+    font-family: "Century Gothic";
+    background-image: url("../img/low-contrast-linen.jpg");
+}
+
+#preloader
+{
+    z-index: 600;
+    top: 0px;
+
+    color: #ffffff;
+    font-size: 11pt;
+    text-transform: uppercase;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0,0,0,0.4);
+    visibility: hidden;
+}
+#loaderImage
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -140px;
+    margin-top: -24px;
+    width: 280px;
+    height: 48px;
+    background-image: url("../img/loader.png");
+    background-repeat: repeat;
+}
+
+#sideBar
+{
+    width: 60px;
+    position: fixed;
+    top:50%;
+    margin-top:-170px;
+}
+
+.sideBarButton
+{
+    cursor: pointer;
+    background: none;
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 8px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.5); /* Mozilla Firefox */
+    -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.5) ; /* Google Chrome */
+}
+#buttonMyRecipes
+{
+    background-image: url("../img/button-my-recipes.jpg");
+    background-repeat: no-repeat;
+}
+#buttonFavoriteRecipes
+{
+    background-image: url("../img/button-my-favorites.jpg");
+    background-repeat: no-repeat;
+}
+#buttonCreateRecipe
+{
+    background-image: url("../img/button-create-recipe.jpg");
+    background-repeat: no-repeat;
+}
+#buttonBrowseEvents
+{
+    background-image: url("../img/button-event.jpg");
+    background-repeat: no-repeat;
+}
+#buttonCreateEvent
+{
+    background-image: url("../img/button-create-event.jpg");
+    background-repeat: no-repeat;
+}
+
+
+
+
+/* HEADER */
+
+.greenSeperator
+{
+    clear: left;
+    display: block;
+    background-color: #99cc33;
+
+    height: 3px;
+    width: 100%;
+
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.3); /* Mozilla Firefox */
+    -webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.3) ; /* Google Chrome */
+}
+#header
+{
+    position: relative;
+    z-index: 500;
+    display: inline;
+    height: 180px;
+    width: 100%;
+}
+
+#logoHeader
+{
+    display: block;
+    width: 100%;
+    height: 137px;
+    background-image: url("../img/wood-pattern.jpg");
+    background-repeat: repeat;
+}
+#logo
+{
+    cursor: pointer;
+    width: 900px;
+    height: 137px;
+    margin-left:auto; 
+    margin-right:auto;
+    background-image: url("../img/logo.jpg");
+    background-repeat: no-repeat;
+}
+#headerBar
+{
+    width: 900px;
+    margin-left:auto; 
+    margin-right:auto;
+    height: 45px;
+}
+#keywordSearch
+{
+    float: right;
+    width: 296px;
+    height: 40px;
+    background-color: #99cc33;
+    margin-right: 10px;
+
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 2px 3px rgba(0,0,0,0.3); /* Mozilla Firefox */
+    -webkit-box-shadow: 0px 2px 3px rgba(0,0,0,0.3) ; /* Google Chrome */
+}
+#loginWrapper
+{
+    display: inline;
+    float: right;
+}
+
+#loginButton
+{
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 2px 3px rgba(0,0,0,0.3); /* Mozilla Firefox */
+    -webkit-box-shadow: 0px 2px 3px rgba(0,0,0,0.3) ; /* Google Chrome */
+}
+
+#accountButton
+{
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 2px 3px rgba(0,0,0,0.3); /* Mozilla Firefox */
+    -webkit-box-shadow: 0px 2px 3px rgba(0,0,0,0.3) ; /* Google Chrome */
+}
+
+#toggleButton
+{
+    position: relative;
+    top: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background: none;
+    border: none;
+    background-image: url("../img/toggle-on.png");
+    background-repeat: no-repeat;
+}
+#search
+{
+    position: relative;
+    top: 7px;
+    margin-left: 14px;
+    width: 210px;
+    font-size: 11pt;  
+    font-weight: normal;
+    background-color: transparent;
+    border-style: none;
+    outline: none;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #688a23;
+    text-decoration-color: #ffffff;
+}
+#loopbutton
+{
+    position: relative;
+    top: 4px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    width: 22px;
+    height: 22px;
+    background-image: url("../img/loop.png");
+    background-repeat: no-repeat;
+}
+
+
+
+
+/* FILTER HEADER */
+
+#filterHeader {
+    top: 140px;
+    background-color: #f5f1eb;
+    height: 354px;
+    width: 100%;
+    position: absolute;
+    visibility: hidden;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.5); /* Mozilla Firefox */
+    -webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.5) ; /* Google Chrome */
+}
+#filterHeadlineWrapper
+{
+    z-index: 501;
+    position: relative;
+    width: 450px;
+    left: 50%;
+    margin-left: -450px;
+    margin-right: auto;
+
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 2px 3px rgba(0,0,0,0.3); /* Mozilla Firefox */
+    -webkit-box-shadow: 0px 2px 3px rgba(0,0,0,0.3) ; /* Google Chrome */
+}
+#filterHeadline
+{
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #688a23;
+    text-decoration-color: #ffffff;
+    width: 100%;
+    height: 40px;
+    background-color: #99cc33;
+}
+.filterHeadlineText
+{
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 9px;
+}
+
+#filterOptions
+{
+    margin-top: 15px;
+    position: relative;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cathead { display: block; }
+
+#catlinks .filterCatHeadline
+{
+    color: #cdad80;
+    font-size: 13pt;
+    text-transform: uppercase;
+    display: block;
+    margin-left: 3px;
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
+
+input[type=radio] { display: none; /* comment out to display all radio buttons */ }
+input[type=checkbox] { display: none; /* comment out to display all radio buttons */ }
+
+.filterRadioButton {
+
+    margin-left: 3px;
+    text-decoration: none;
+    background-color: #d8bf9d;
+    color: #927d61;
+    text-shadow: 1px 1px 0px rgba(255,255,255,0.3);
+    border-style: none;
+    outline: none;
+    font-size: 11pt;
+    font-weight: bold;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+
+    box-shadow: 0px 1px 1px rgba(255,255,255,0.5);
+    -moz-box-shadow: 0px 1px 1px rgba(255,255,255,0.5); /* Mozilla Firefox */
+    -webkit-box-shadow: 0px 1px 1px rgba(255,255,255,0.5); /* Google Chrome */
+}
+.filterRadioButton:hover
+{ 
+    background-color: #CEB796;
+    color: #88735A;
+}
+.filterRadioButton.sel 
+{ 
+    background-color: #927d61;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.3);
+
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,0.3); /* Mozilla Firefox */
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.3); /* Google Chrome */
+}
+.filterRadioButton.sel:hover 
+{
+
+}
+
+#filterRecipeButtons
+{
+    position: relative;
+    float: right;
+    bottom: 30px;
+}
+#filterResetButton
+{
+    margin-left: 5px;
+}
+#filterSubmitButton
+{
+}
+
+
+
+/* CONTENT */
+
+#content
+{
+    color: #ffffff;
+    margin: 0 auto;
+    position: absolute;
+    width: 900px;
+    background-color: transparent;
+    left: 50%;
+    top: 200px;
+    margin-left: -450px;
+    padding-bottom: 60px;
+}
+.contentWrapper
+{
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+
+    box-shadow: 0px 1px 6px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 1px 6px rgba(0,0,0,1); /* Mozilla Firefox */
+    -webkit-box-shadow: 0px 1px 6px rgba(0,0,0,1) ; /* Google Chrome */
+}
+
+.defaultHeadline
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 445px;
+    font-size: 34.5pt;
+    line-height: 100%;
+    color: #99cc33;
+    text-transform: uppercase;
+}
+.defaultText
+{
+    margin-bottom: 20px;
+    margin-left: 445px;
+    font-size: 11pt;
+    color: #484848;
+}
+
+
+/* FOOTER */
+
+#footer
+{
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    background-color: #252525;
+    text-transform: uppercase;
+    font-size: 10pt;
+    text-shadow: 1px 1px 1px #000000;
+}
+#footerContent
+{
+    top: 11px;
+    position: relative;
+    width: 900px;
+    left: 50%;
+    margin-left: -450px;
+}
+.footerUrls
+{
+    width: 100%;
+    margin-left: 16px;
+    display: inline;
+}
+
+.footerUrls a:link { text-decoration:none; color: #99cc33; margin-left: 5px;}
+.footerUrls a:visited { text-decoration:none; color:#99cc33; }
+.footerUrls a:hover { text-decoration:underline; color:#99cc33; }
+.footerUrls a:active { text-decoration:none; color:#99cc33; }
+.footerUrls a:focus { text-decoration:none; color:#99cc33; }
+.defaultText a { text-decoration:none; color: #99cc33;}
+.defaultText a:hover { text-decoration:underline; color: #99cc33;}
+
+
+/* GLOBAL ELEMENTS */
+
+.boldText
+{
+    font-weight: bold;
+}
+.greenButton
+{
+    cursor: pointer;
+    background-color: #99cc33;
+    text-transform: uppercase;
+    color: #669606;
+    text-shadow: 1px 1px 0px rgba(255,255,255,0.3);
+    border-style: none;
+    outline: none;
+    font-size: 13pt;
+    font-weight: bold;
+    height: 40px;
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+
+
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,0.3); /* Mozilla Firefox */
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.3); /* Google Chrome */
+}
+.greenButton:hover
+{
+    color: #6A9C05;
+    background-color: #A1D534;
+}
+
+.redButton
+{
+    cursor: pointer;
+    background-color: #ea1d2c;
+    text-transform: uppercase;
+    color: #7c1e1e;
+    text-shadow: 1px 1px 0px rgba(255,255,255,0.3);
+    border-style: none;
+    outline: none;
+    font-size: 13pt;
+    font-weight: bold;
+    height: 40px;
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    
+
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,0.3); /* Mozilla Firefox */
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.3); /* Google Chrome */
+}
+.redButton:hover
+{
+    color: #8F1F1F;
+    background-color: #F21D2B;
+}
+
+.smallGrayButton
+{
+    cursor: pointer;
+    background-color: #d1d0d0;
+    text-transform: uppercase;
+    color: #484848;
+    border-style: none;
+    outline: none;
+    font-size: 8pt;
+    font-weight: bold;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.brightButton
+{
+    width: 100%;
+}
+
+.brownButton
+{
+    cursor: pointer;
+    background-color: #d8bf9d;
+    text-transform: uppercase;
+    color: #927d61;
+    text-shadow: 1px 1px 0px rgba(255,255,255,0.3);
+    border-style: none;
+    outline: none;
+    font-size: 13pt;
+    font-weight: bold;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+
+    box-shadow: 0px 1px 1px rgba(255,255,255,0.3);
+    -moz-box-shadow: 0px 1px 1px rgba(255,255,255,0.3); /* Mozilla Firefox */
+    -webkit-box-shadow: 0px 1px 1px rgba(255,255,255,0.3); /* Google Chrome */
+}
+.radioButton:hover
+{
+    cursor: none;
+    background-color: #927d61;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.3);
+
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,0.3); /* Mozilla Firefox */
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.3); /* Google Chrome */
+}
+
+
+/* LOGIN FORM */
+
+#login
+{
+    position: fixed;
+    left: 50%;
+    margin-left: -94px; 
+    top: 50%;
+    margin-top: -164px;
+    visibility: hidden;
+    width: 188px;
+    height: 330px;
+    background-color: #f0f0f0;
+
+    box-shadow: 0px 2px 7px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 2px 7px rgba(0,0,0,0.3); /* Mozilla Firefox */
+    -webkit-box-shadow: 0px 2px 7px rgba(0,0,0,0.3) ; /* Google Chrome */
+}
+#loginContent
+{
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+#loginForm
+{
+    width: 100%;
+    margin-top: 12px;
+}
+#loginUser, #loginPassword
+{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 8px;
+}
+#loginSubmitButton
+{
+    width: 100%;
+}
+#loginOptions
+{
+    margin-top: 26px;
+}
+#forgotButton, #registerButton, #closeLoginButton
+{
+    display: inline;
+    float: bottom;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* RANDOM RECIPE STYLES */
+#randomRecipeContent
+{
+    cursor: pointer;
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    background-color: #f5f1eb;
+    margin-bottom: 20px;
+    min-height: 233px;
+
+    box-shadow: 0px 1px 6px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 1px 6px rgba(0,0,0,1); /* Mozilla Firefox */
+    -webkit-box-shadow: 0px 1px 6px rgba(0,0,0,1) ; /* Google Chrome */
+}
+#randomRecipeContent:hover
+{
+    background-color: #EEE9E3;
+}
+#randomRecipeImageContainer
+{
+    width: 213px;
+    height: 213px;
+    display: inline;
+    padding: 10px;
+    float: left;
+}
+#randomRecipeImage
+{
+    position: absolute;
+}
+#randomTeaser
+{
+    position: absolute;
+    width: 213px;
+    height: 213px;
+    background-image: url("../img/random-teaser.png");
+    background-repeat: no-repeat;
+}
+#randomRecipeInfos
+{
+    overflow: auto;
+    color: #cdad80;
+    font-size: 25pt;
+    padding-right: 20px;
+    margin-top: 2px;
+}
+#randomRecipeVotingContent
+{
+    position: relative;
+    top: 103px;
+}
+
+.faqContent, .welcomeContent
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.shadowedSection
+{
+    display: inline-block;
+    width: 100%;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.15); /* Mozilla Firefox */
+    -webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.15); /* Google Chrome */
+}
+.faqText, .faqHeadline, .welcomeText, .welcomeHeadline
+{
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.functionImage
+{
+    margin-left: 150px;
+    margin-top: 50px;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,0.3); /* Mozilla Firefox */
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.3); /* Google Chrome */
+}
+
+#welcomeFaqButton
+{
+    margin-top: 20px;
+    width: 100%;
+}
+
+#errorsPW
+{
+    font-weight: bold;
+    color: #F21D2B;
+}

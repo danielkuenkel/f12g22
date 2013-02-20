@@ -1,0 +1,67 @@
+/* 
+    Author     : dkuenk
+    Description:
+    Purpose of the stylesheet follows.
+*/
+
+.inputLabel
+{
+    font-size: 13pt;
+    color: #484848;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+.inputField
+{
+    margin-top: 7px;
+    margin-bottom: 12px;
+    height: 40px;
+    width: 100%;
+    font-size: 9pt;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    padding-left: 7px;
+    padding-right: 7px;
+    border: 1px solid #ebebeb;
+    outline: none;
+    background-color: #ffffff;
+}
+.inputField:disabled
+{
+    margin-top: 0px;
+    margin-bottom: 12px;
+    width: 100%;
+    font-size: 12pt;
+    text-shadow: none;
+    padding-left: 0px;
+    padding-right: 0px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    font-weight: bold;
+}
+.areaField
+{
+    margin-top: 7px;
+    margin-bottom: 12px;
+    width: 100%;
+    min-width: 430px;
+    max-width: 860px;
+    min-height: 140px;
+    max-height: 400px;
+    font-size: 9pt;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    padding: 7px;
+    border: 1px solid #ebebeb;
+    outline: none;
+}
+.required
+{
+    font-size: 8pt;
+    color: #484848;
+}
+
+#errors
+{
+    font-size: 11pt;
+    color: #ea1d2c;
+}
+

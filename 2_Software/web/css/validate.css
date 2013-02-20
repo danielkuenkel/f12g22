@@ -1,0 +1,41 @@
+/*----------------------------------------------------------------------------*/
+/*Autor: Malkmus, Daniel
+ *Datum: 29.10.2012
+ *Version: v1.0
+*/
+/* --- Dateinbeschreibung ------------------------------------------------------
+ * Cascading Style Sheet
+ */
+/* --- Elemente ----------------------------------------------------------------
+ * .myerror                 - Umrandet nicht validierte Felder rot
+ * .mysuccess               - entfernt roten Rand um validierte Felder
+ */
+/* --- Historie ----------------------------------------------------------------
+ * Daniel Malkmus (v1.0)    – Erstellen der Datei mit allen Funktionen
+ */
+/*------------------------------------------------------------------------------
+/* --- Funktionsbeschreibung ---------------------------------------------------
+ * Hier werden die CSS Bedingungen für die Form Validierung gesetzt.
+ * ---------------------------------------------------------------------------*/  
+
+.myerror
+{
+    border:1px solid #ea1d2c;
+}
+
+.mysuccess
+{
+    border: 1px solid #ebebeb;
+}
+
+/*.em
+{
+    visibility: hidden;
+    display: none;
+}
+
+#errorContainer
+{
+    visibility: hidden;
+    display: none;
+}*/

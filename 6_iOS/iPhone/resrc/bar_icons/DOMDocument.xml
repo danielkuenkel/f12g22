@@ -1,0 +1,93 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="60" height="60" currentTimeline="1" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 12.0 build 537" majorVersion="12" buildNumber="537" viewAngle3D="6.50057316390431" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+     <symbols>
+          <Include href="SearchIcon.xml" loadImmediate="false" itemID="50d0a5c8-0000026c" lastModified="1355851457"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Scene 1">
+               <layers>
+                    <DOMLayer name="Layer 1" color="#4FFF4F">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="SearchIcon" centerPoint3DX="28.95" centerPoint3DY="22.2">
+                                             <matrix>
+                                                  <Matrix a="0.8326416015625" d="0.833328247070312" tx="12.95" ty="3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="19.95" y="22.4"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#FF800A" visible="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMShape>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke scaleMode="normal" caps="square" weight="3" joints="miter">
+                                                            <fill>
+                                                                 <SolidColor/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge strokeStyle="1" edges="!934 140|934 1060!934 1060|267 1060!267 1060|267 140!267 140|934 140"/>
+                                             </edges>
+                                        </DOMShape>
+                                        <DOMGroup>
+                                             <matrix>
+                                                  <Matrix ty="-3.75"/>
+                                             </matrix>
+                                             <members>
+                                                  <DOMShape>
+                                                       <matrix>
+                                                            <Matrix ty="-3.75"/>
+                                                       </matrix>
+                                                       <strokes>
+                                                            <StrokeStyle index="1">
+                                                                 <SolidStroke scaleMode="normal" caps="square" weight="3" joints="miter">
+                                                                      <fill>
+                                                                           <SolidColor/>
+                                                                      </fill>
+                                                                 </SolidStroke>
+                                                            </StrokeStyle>
+                                                       </strokes>
+                                                       <edges>
+                                                            <Edge strokeStyle="1" edges="!399 975|802 975!399 825|802 825!399 675|802 675!399 525|802 525!399 375|802 375"/>
+                                                       </edges>
+                                                  </DOMShape>
+                                             </members>
+                                        </DOMGroup>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true" visible="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMShape>
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <edges>
+                                                  <Edge fillStyle1="1" edges="!1100 700S2|700 700!700 700|700 1100!700 1100|500 1100!500 1100|500 700!500 700|100 700!100 700|100 500!100 500|500 500!500 500|500 100!500 100|700 100!700 100|700 500!700 500|1100 500!1100 500|1100 700"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <PrinterSettings platform="macintosh"/>
+     <publishHistory/>
+</DOMDocument>

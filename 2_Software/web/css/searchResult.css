@@ -1,0 +1,143 @@
+/* 
+    Author     : dkuenk
+    Description:
+    Purpose of the stylesheet follows.
+*/
+
+/* RECIPE RESULTS */
+#searchResultWrapper
+{
+    width: 100%;
+    margin: 0 auto;
+    display: inline;
+}
+.recipeSearchResult, .recipeSearchResultLast
+{
+    display: inline-block;
+    position: relative;
+    margin-bottom: 16px;
+    width: 213px;
+    height: 266px;
+    background-color: #99cc33;
+    cursor: pointer;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.7); /* Mozilla Firefox */
+    -webkit-box-shadow: 0px 1px 2px rgba(0,0,0,0.7) ; /* Google Chrome */
+}
+
+.recipeSearchResult
+{
+    margin-right: 16px;
+}
+#recipeSearchResultTitle
+{
+    width: 100%;
+    display: inline;
+    position: absolute;
+    min-height: 58px;
+    background: rgba(0,0,0,0.6);
+    top: 0px;
+}
+#recipeSearchResultTitleText
+{
+    white-space: normal;
+    color: #ffffff;
+    font-size: 10pt;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    padding: 4px;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+#recipeSearchResultShadow
+{
+    overflow: hidden;
+    position: relative;
+    top: 213px;
+    background: rgba(0,0,0,0.3);
+    height: 1px;
+}
+#searchRecipeImage
+{
+    display: inline;
+    position: absolute;
+    width: 213px;
+    height: 213px;
+    clip: rect(0px, 213px, 213px, 0px);
+}
+#votingContainer
+{
+    display: inline;
+    position: absolute;
+    bottom: 40px;
+    left: 15px;
+}
+#searchVoting
+{
+    position: absolute;
+    top: 4px;
+    left: 24px;
+    font-size: 13pt;
+    font-weight: bold;
+    color: #669606;
+    text-shadow: 1px 1px 0px rgba(255,255,255,0.3);
+}
+#spoonImage
+{
+    position: absolute;
+
+    width: 22px;
+    height: 40px;
+    background-image: url("../img/recipe-search-spoon.png");
+}
+
+#commentContainer
+{
+    display: inline;
+    position: absolute;
+    bottom: 38px;
+    left: 80px;
+}
+#searchComment
+{
+    position: absolute;
+    top: 2px;
+    left: 33px;
+    font-size: 13pt;
+    font-weight: bold;
+    color: #669606;
+    text-shadow: 1px 1px 0px rgba(255,255,255,0.3);
+}
+#commentImage
+{
+    position: absolute;
+    width: 33px;
+    height: 25px;
+    background-image: url("../img/recipe-search-comment.png");
+}
+
+#favoriteContainer
+{
+    display: inline;
+    position: absolute;
+    bottom: 40px;
+    left: 145px;
+}
+#favoriteImage
+{
+    position: absolute;
+    width: 28px;
+    height: 26px;
+    background-image: url("../img/recipe-search-favorite.png");
+}
+#searchFavorite
+{
+    position: absolute;
+    top: 4px;
+    left: 30px;
+    font-size: 13pt;
+    font-weight: bold;
+    color: #669606;
+    text-shadow: 1px 1px 0px rgba(255,255,255,0.3);
+}

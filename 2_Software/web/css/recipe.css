@@ -1,0 +1,495 @@
+/* 
+    Author     : dkuenk
+    Description:
+    Purpose of the stylesheet follows.
+*/
+
+/* RECIPE PAGE */
+
+#recipeContent, #event
+{
+    width: 900px;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 6px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 1px 6px rgba(0,0,0,1); /* Mozilla Firefox */
+    -webkit-box-shadow: 0px 1px 6px rgba(0,0,0,1) ; /* Google Chrome */
+}
+
+#recipeHeaderContent, #eventHeaderContent
+{
+    width: 100%;
+    height: 420px;
+    background-color: #f5f1eb;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.3); /* Mozilla Firefox */
+    -webkit-box-shadow: 0px 1px 2px rgba(0,0,0,0.3) ; /* Google Chrome */
+}
+#recipeImage, #googleMap
+{
+    top: 10px;
+    left: 10px;
+    display: inline-block;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    clip: rect(0px, 400px, 400px, 0px);
+}
+#goBackToSearchButton
+{
+    top: 20px;
+    left: 20px;
+    display: inline-block;
+    position: absolute;
+}
+#recipeInfos, #eventInfos
+{
+    padding-top: 5px;
+    padding-left: 420px;
+    padding-right: 20px;
+    height: 366px;
+}
+#recipeHeadline, #eventHeadline
+{
+    width: 100%;
+    color: #cdad80;
+    font-size: 25pt;
+    line-height: 100%;
+}
+#createdFrom, #eventOwner
+{
+    margin-top: 6px;
+    font-size: 10pt;
+    color: #947f63;
+}
+#recipeAbstract, #eventAbstract
+{
+    margin-top: 20px;
+    font-size: 10pt;
+    color: #947f63;
+}
+#categoryContainer
+{
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+}
+.recipeCategory
+{
+    cursor: default;
+    text-transform: uppercase;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #947f63;
+    border:1px dashed #cdad80;
+    outline: none;
+    font-size: 9pt;
+    font-weight: bold;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+}
+
+
+#headerButtonsContent
+{
+    display: inline;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#eventHeaderButtonsContent
+{
+    display: inline;
+    width: 100%;
+    margin: 0 auto;
+}
+#buttonFavorite
+{
+    float: right;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/button-add-favorite.jpg");
+    background-repeat: no-repeat;
+    padding-bottom: 7px;
+}
+#buttonDeleteFavorite
+{
+    float: right;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/button-delete-favorite.jpg");
+    background-repeat: no-repeat;
+    padding-bottom: 7px;
+    visibility: hidden;
+}
+#buttonPrint
+{
+    float: right;
+    display: inline;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/button-print.jpg");
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+#buttonFB
+{
+    float: right;
+    display: inline;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/button-fb.jpg");
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+
+
+#recipePrepContent, #eventContent
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: transparent;
+    display: inline-block;
+}
+
+#servingContainer
+{
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.servingText
+{
+    display: inline;
+    color: #484848;
+    font-size: 11pt;
+}
+#servingInput
+{
+    display: inline;
+    width: 60px;
+    margin-left: 6px;
+    margin-right: 6px;
+    text-align: center;
+}
+#convertButton
+{
+    margin-left: 6px;
+}
+#orderButton
+{
+    margin-top: 6px;
+    float: right;
+}
+
+#preperationContent
+{
+    display: inline-block;
+    float: left;
+    width: 430px;
+}
+
+#recipePreparation
+{
+    margin-top: 10px;
+    display: inline-block;
+    color: #484848;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#ingredientContent 
+{
+    display: inline-block;
+    font-size: 11pt;
+    float: left;
+    width: 430px;
+}
+
+#eventData
+{
+    display: inline-block;
+    font-size: 11pt;
+    float: left;
+    width: 100%;
+}
+
+.prepContentHeadline
+{
+    display: block;
+    color: #484848;
+    font-size: 11pt;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+#quantityContainer
+{
+    margin-top: 10px;
+    float: left;
+    text-align: right;
+}
+#unitContainer, #nameContainer, #eventUnitContainer, #eventNameContainer
+{
+    margin-top: 10px;
+    float: left;
+    margin-left: 5px;
+}
+
+.recipeQuantity, .recipeUnit 
+{
+    color: #cbab81;
+    height: 20px;
+}
+
+.eventUnit{
+    color: #cbab81;
+    height: 20px;
+    text-align : right;
+}
+.recipeName, .eventName
+{
+    color: #484848;
+    height: 20px;
+}
+
+#recipeCookingTime
+{
+    font-size: 11pt;
+    padding-top: 10px;
+    clear: both;
+    color: #484848;
+}
+#watchVideoButton
+{
+    overflow: auto;
+    margin-top: 20px;
+    clear: both;
+    float: left;
+    display: inline;
+}
+
+#editRecipeButton
+{
+    margin-top: 20px;
+    margin-right: 10px;
+    float: right;
+}
+
+#deleteRecipeButton
+{
+    margin-top: 20px;
+    float: right;
+}
+
+#editEventButton, #joinEventButton
+{
+    margin-right: 10px;
+    float: right;
+}
+
+#deleteEventButton, #leaveEventButton
+{
+    margin-right: 10px;
+    float: right;
+}
+
+
+/* comment styles */
+#commentContent
+{
+    display: block;
+    margin: 20px 0 20px 0;
+    width: 900px;
+    background-color: #ebebeb;
+
+    box-shadow: 0px 1px 6px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 1px 6px rgba(0,0,0,1); /* Mozilla Firefox */
+    -webkit-box-shadow: 0px 1px 6px rgba(0,0,0,1) ; /* Google Chrome */
+}
+
+#commentAddContainer
+{
+    display: inline-block;
+    width: 860px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#commentInput
+{
+    float: left;
+}
+#commentSubmitButton
+{
+    float: right;
+}
+
+#singleComment
+{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#commentHead
+{
+    color: #484848;
+    font-size: 10pt;
+    font-weight: bold;
+
+}
+
+#commentText
+{
+    color: #484848;
+    font-size: 10pt;
+
+}
+#commentSeperator
+{
+    background-image: url("../img/seperator-horizontal.jpg");
+    height: 2px;
+    margin-top: 20px;
+}
+
+#deleteCommentButton
+{
+    float: right;
+}
+
+
+/* VOTINGS */
+#votingContent
+{
+    cursor: pointer;
+    position: absolute;
+    left: 420px;
+    top: 332px;
+}
+#votingContentVoted
+{
+    position: absolute;
+    left: 420px;
+    top: 332px;
+}
+#spoonFull
+{
+    float: left;
+    width: 21px;
+    height: 77px;
+    background-image: url("../img/spoon-full.png");
+    background-repeat: no-repeat;
+}
+#spoonHalf
+{
+    float: left;
+    width: 21px;
+    height: 77px;
+    background-image: url("../img/spoon-half.png");
+    background-repeat: no-repeat;
+}
+#spoonEmpty
+{
+    float: left;
+    width: 21px;
+    height: 77px;
+    background-image: url("../img/spoon-empty.png");
+    background-repeat: no-repeat;
+}
+#votingTextContent
+{
+    float: left;
+    color: #cdad80;
+    margin-left: 10px;
+}
+#votingText
+{
+    font-size: 53pt;
+    line-height: 80%;
+}
+#totalVotesText
+{
+    padding-top: 5px;
+    font-size: 11pt;
+}
+
+#votingLayer
+{
+    visibility: hidden;
+    position: absolute;
+    left: 560px;
+    top: 120px;
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    box-shadow: 0px 1px 6px rgba(0,0,0,.5);
+    -moz-box-shadow: 0px 1px 6px rgba(0,0,0,.5); /* Mozilla Firefox */
+    -webkit-box-shadow: 0px 1px 6px rgba(0,0,0,.5) ; /* Google Chrome */
+}
+.assessment
+{
+    cursor: pointer;
+}
+div.assessmentText:hover
+{
+    color: #947f63;
+}
+.assessmentText
+{
+    float: left;
+    color: #cbab81;
+}
+.assessmentImage
+{
+    float: left;
+    height: 10px;
+    width: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+#assessmentZero
+{
+    background-image: url("../img/voting-zero.png");
+    background-repeat: no-repeat;
+}
+#assessmentOne
+{
+    background-image: url("../img/voting-one.png");
+    background-repeat: no-repeat;
+}
+#assessmentTwo
+{
+    background-image: url("../img/voting-two.png");
+    background-repeat: no-repeat;
+}
+#assessmentThree
+{
+    background-image: url("../img/voting-three.png");
+    background-repeat: no-repeat;
+}
+#assessmentFour
+{
+    background-image: url("../img/voting-four.png");
+    background-repeat: no-repeat;
+}
+#assessmentFive
+{
+    background-image: url("../img/voting-five.png");
+    background-repeat: no-repeat;
+}

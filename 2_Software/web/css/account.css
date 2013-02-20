@@ -1,0 +1,99 @@
+/* 
+    Author     : dkuenk
+    Description:
+    Purpose of the stylesheet follows.
+*/
+
+/* CREATE RECIPE */
+
+.accountFormContent
+{
+    width: 100%;
+    display: table;
+}
+
+.inputLine
+{
+    float: left;
+}
+
+#forenameInput
+{
+    margin-right: 16px;
+    width: 422px;    
+}
+#passwordInput
+{
+    display: none;
+    visibility: hidden;
+}
+
+#surenameInput
+{
+    width: 422px;
+}
+
+#streetInput
+{
+    margin-right: 16px;
+    width: 422px;
+}
+#houseNumberInput
+{
+    width: 422px;
+}
+
+#zipInput
+{
+    width: 422px;
+}
+
+#cityInput
+{
+    margin-left: 16px;
+    width: 422px;
+}
+
+#saveUserButton
+{
+    display: none;
+    visibility: hidden;
+    float: right;
+}
+#cancelSaveButton
+{
+    display: none;
+    visibility: hidden;
+    margin-right: 10px;
+    float: right;
+}
+#editUserButton
+{
+    display: inline;
+    float: right;
+}
+
+#updateLayer
+{
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    color: #484848;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -100px;
+    margin-top: -90px;
+    visibility: hidden;
+    display: table;
+    padding: 20px;
+    width: 200px;
+    background-color: #f0f0f0;
+    
+    box-shadow: 0px 2px 7px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 2px 7px rgba(0,0,0,0.3); /* Mozilla Firefox */
+    -webkit-box-shadow: 0px 2px 7px rgba(0,0,0,0.3) ; /* Google Chrome */
+}
+#successOkButton
+{
+    width: 100%;
+}

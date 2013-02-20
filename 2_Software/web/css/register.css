@@ -1,0 +1,55 @@
+/* 
+    Author     : dkuenk
+    Description:
+    Purpose of the stylesheet follows.
+*/
+
+/* CREATE RECIPE */
+
+.registerFormContent
+{
+    width: 100%;
+    display: table;
+}
+
+.inputLine
+{
+    float: left;
+}
+
+#forenameInput
+{
+    margin-right: 16px;
+    width: 422px;
+}
+
+#surenameInput
+{
+    width: 422px;
+}
+
+#streetInput
+{
+    margin-right: 16px;
+    width: 422px;
+}
+#houseNumberInput
+{
+    width: 422px;
+}
+
+#zipInput
+{
+    width: 422px;
+}
+
+#cityInput
+{
+    margin-left: 16px;
+    width: 422px;
+}
+
+#registerUserButton
+{
+    float: right;
+}

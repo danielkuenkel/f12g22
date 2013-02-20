@@ -1,0 +1,125 @@
+/* 
+    Author     : dkuenk
+    Description:
+    Purpose of the stylesheet follows.
+*/
+
+/* CREATE RECIPE */
+
+.createRecipeFormContent
+{
+    width: 100%;
+    display: table;
+}
+
+#updateRecipeId, #updateEventId
+{
+    visibility: hidden;
+    overflow: hidden;
+}
+
+.ingredientContainer
+{
+    width: 100%;
+    overflow: auto;
+}
+.ingredientDelete
+{
+    float: left;
+}
+.ingredientQuantity
+{
+    margin-left: 10px;
+    width: 90px;
+    float: left;
+}
+.ingredientUnit
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+.ingredientName
+{
+    overflow: auto;
+}
+
+#file
+{
+    margin-top: 7px;
+    margin-bottom: 12px;
+}
+
+.selectBox
+{
+    cursor: pointer;
+    font-family: "Century Gothic";
+    min-width: 290px;
+    font-size: 10pt;
+    font-weight: bold;
+    overflow: hidden;
+    margin-top: 7px;
+    margin-bottom: 12px;
+    border: none;
+    outline: none;
+    color: #669606;
+
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 11px;
+    padding-bottom: 10px;
+    background-color: transparent;
+
+    background-image: url("../img/select-box-ground.jpg");
+    background-repeat: no-repeat;
+
+    -moz-appearance: tooltip;
+    -webkit-appearance: button;
+    -webkit-border-radius: 0;
+
+    box-sizing:content-box;
+    -moz-box-sizing:content-box;
+    -webkit-box-sizing:content-box;
+
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,0.3); /* Mozilla Firefox */
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.3); /* Google Chrome */
+}
+
+#ingredientsHeadline
+{
+    margin-bottom: 10px;
+}
+#submitButton
+{
+    margin-top: 27px;
+    float: right;
+}
+#resetCategoryButton
+{
+    margin-top: 27px;
+}
+#addIngredientButton
+{
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+#removeIngredientButton
+{
+    margin-top: 2px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.deleteIngredientButton
+{
+    margin-top: 28px;
+}
+
+#categoryHeadline
+{
+    margin-top: 10px;
+}
+#ingredientRecipeOptions
+{
+    margin-left: -2px;
+}

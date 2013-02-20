@@ -1,0 +1,45 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 2" itemID="4f840a32-000002e7" lastModified="1355852051">
+  <timeline>
+    <DOMTimeline name="Symbol 2">
+      <layers>
+        <DOMLayer name="Ebene 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="-0.163330078125" c="0.151947021484375" d="0" tx="0.05" ty="-690.2"/>
+                        </matrix>
+                        <GradientEntry color="#270000" alpha="0" ratio="0"/>
+                        <GradientEntry color="#270000" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                    <FillStyle index="2">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="0.163330078125" c="-0.151947021484375" d="0" ty="-20"/>
+                        </matrix>
+                        <GradientEntry color="#270000" alpha="0" ratio="0"/>
+                        <GradientEntry color="#270000" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!-6896 -16294[-7810 -16294 -8454 -15648!-8454 -15648[-9100 -15004 -9100 -14090!-9100 -14090|-9100 -13518!-9100 -13518[-9100 -12605 -8454 -11959!-8454 -11959[-7810 -11315 -6896 -11315!-6896 -11315|6897 -11315!6897 -11315[7811 -11315 8456
+ -11959!8456 -11959[9101 -12605 9101 -13518!9101 -13518|9101 -14090!9101 -14090[9101 -15004 8456 -15648!8456 -15648[7811 -16294 6897 -16294!6897 -16294|-6896 -16294"/>
+                    <Edge fillStyle0="2" edges="
+!9101 -686[9101 -1599 8455 -2245!8455 -2245[7811 -2889 6897 -2889!6897 -2889|-6896 -2889!-6896 -2889[-7810 -2889 -8455 -2245!-8455 -2245[-9100 -1599 -9100 -686!-9100 -686|-9100 -114!-9100 -114[-9100 800 -8455 1444!-8455 1444[-7810 2090
+ -6896 2090!-6896 2090|6897 2090!6897 2090[7811 2090 8455 1444!8455 1444[9101 800 9101 -114!9101 -114|9101 -686"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,13 @@
+/* 
+    Author     : dkuenk
+    Description:
+    Purpose of the stylesheet follows.
+*/
+
+/* CREATE RECIPE */
+
+#ovFaqButton, #ovLoginButton, #ovRegisterButton
+{
+    margin-top: 10px;
+    width: 100%;
+}

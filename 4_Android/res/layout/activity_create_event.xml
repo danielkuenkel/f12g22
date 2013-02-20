@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:isScrollContainer="true"
+    tools:context=".CreateEventActivity" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/searchList" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/eventTitle_create"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:ems="10"
+                android:hint="@string/eventTitle_create"
+                android1:inputType="text" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/eventMaxPersons_create"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/eventTitle_create"
+                android:layout_below="@+id/eventTitle_create"
+                android:ems="10"
+                android:hint="@string/eventMaxPersons_create"
+                android1:inputType="number" />
+
+            <EditText
+                android:id="@+id/eventCost_create"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/eventMaxPersons_create"
+                android:layout_below="@+id/eventMaxPersons_create"
+                android:ems="10"
+                android:hint="@string/eventCost_create"
+                android1:inputType="number" />
+
+            <EditText
+                android:id="@+id/eventDate_create"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/eventCost_create"
+                android:layout_below="@+id/eventCost_create"
+                android:ems="10"
+                android:hint="@string/eventDate_create"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/eventHour_create"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/eventDate_create"
+                android:layout_below="@+id/eventDate_create"
+                android:ems="10"
+                android:hint="@string/eventHour_create"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/eventMinute_create"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/eventHour_create"
+                android:layout_below="@+id/eventHour_create"
+                android:ems="10"
+                android:hint="@string/eventMinute_create"
+                android:inputType="number" />
+
+            <Button
+                android1:id="@+id/createEventNextButton"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:layout_alignLeft="@+id/eventMinute_create"
+                android1:layout_below="@+id/eventMinute_create"
+                android:hint="@string/createEventNextButton" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
